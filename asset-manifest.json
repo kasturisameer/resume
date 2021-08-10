@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.4c8c9c06.chunk.css",
-    "main.js": "/resume/static/js/main.d064f1e4.chunk.js",
-    "main.js.map": "/resume/static/js/main.d064f1e4.chunk.js.map",
+    "main.css": "/resume/static/css/main.697b2925.chunk.css",
+    "main.js": "/resume/static/js/main.5d1942f7.chunk.js",
+    "main.js.map": "/resume/static/js/main.5d1942f7.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.e4a2f400.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.e4a2f400.js.map",
-    "static/js/2.d2778763.chunk.js": "/resume/static/js/2.d2778763.chunk.js",
-    "static/js/2.d2778763.chunk.js.map": "/resume/static/js/2.d2778763.chunk.js.map",
+    "static/js/2.e7432ecf.chunk.js": "/resume/static/js/2.e7432ecf.chunk.js",
+    "static/js/2.e7432ecf.chunk.js.map": "/resume/static/js/2.e7432ecf.chunk.js.map",
     "index.html": "/resume/index.html",
-    "static/css/main.4c8c9c06.chunk.css.map": "/resume/static/css/main.4c8c9c06.chunk.css.map",
-    "static/js/2.d2778763.chunk.js.LICENSE.txt": "/resume/static/js/2.d2778763.chunk.js.LICENSE.txt",
+    "static/css/main.697b2925.chunk.css.map": "/resume/static/css/main.697b2925.chunk.css.map",
+    "static/js/2.e7432ecf.chunk.js.LICENSE.txt": "/resume/static/js/2.e7432ecf.chunk.js.LICENSE.txt",
     "static/media/App.css": "/resume/static/media/batman.6b5b34a0.jpg",
     "static/media/kohli.d39c74b8.jpg": "/resume/static/media/kohli.d39c74b8.jpg",
     "static/media/microsoft-logo.33310b81.png": "/resume/static/media/microsoft-logo.33310b81.png",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e4a2f400.js",
-    "static/js/2.d2778763.chunk.js",
-    "static/css/main.4c8c9c06.chunk.css",
-    "static/js/main.d064f1e4.chunk.js"
+    "static/js/2.e7432ecf.chunk.js",
+    "static/css/main.697b2925.chunk.css",
+    "static/js/main.5d1942f7.chunk.js"
   ]
 }
