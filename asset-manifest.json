@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.697b2925.chunk.css",
-    "main.js": "/resume/static/js/main.5d1942f7.chunk.js",
-    "main.js.map": "/resume/static/js/main.5d1942f7.chunk.js.map",
+    "main.css": "/resume/static/css/main.5188d102.chunk.css",
+    "main.js": "/resume/static/js/main.a8c2c378.chunk.js",
+    "main.js.map": "/resume/static/js/main.a8c2c378.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.e4a2f400.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.e4a2f400.js.map",
     "static/js/2.e7432ecf.chunk.js": "/resume/static/js/2.e7432ecf.chunk.js",
     "static/js/2.e7432ecf.chunk.js.map": "/resume/static/js/2.e7432ecf.chunk.js.map",
     "index.html": "/resume/index.html",
-    "static/css/main.697b2925.chunk.css.map": "/resume/static/css/main.697b2925.chunk.css.map",
+    "static/css/main.5188d102.chunk.css.map": "/resume/static/css/main.5188d102.chunk.css.map",
     "static/js/2.e7432ecf.chunk.js.LICENSE.txt": "/resume/static/js/2.e7432ecf.chunk.js.LICENSE.txt",
     "static/media/App.css": "/resume/static/media/batman.6b5b34a0.jpg",
     "static/media/kohli.d39c74b8.jpg": "/resume/static/media/kohli.d39c74b8.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.e4a2f400.js",
     "static/js/2.e7432ecf.chunk.js",
-    "static/css/main.697b2925.chunk.css",
-    "static/js/main.5d1942f7.chunk.js"
+    "static/css/main.5188d102.chunk.css",
+    "static/js/main.a8c2c378.chunk.js"
   ]
 }
