@@ -1,0 +1,347 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* background-image: url("./assets/images/kohli.jpg"); */
+ 
+}
+
+body:before {
+  content: '';
+  position: fixed;
+  background-image: url('./assets/images/batman.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  filter: blur(0px);
+  z-index: -9;
+  background-size: cover;
+}
+
+
+.jumbotron {
+  height:100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 4;
+  text-align: center;
+  color:white;
+}
+
+.jumbotron .overlay {
+  background-color: #22A39A;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.5 !important;
+  z-index: 2;
+  height:100vh;
+}
+
+.jumbotron .container h1 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  border-bottom-color: rgba(255,255,255,0.35);
+  display: inline-block;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #22A39A;
+  font-size: 45px;
+}
+
+h3 {
+  color: #22A39A;
+  font-size: 30px;
+}
+
+.flex-column-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding: 1% 0%;
+}
+
+.profile_aboutme {
+  text-align: left;
+  flex-grow: 2;
+  flex-basis: 35%;
+}
+
+.profile_picture {
+  flex-grow: 1;
+  flex-basis: 30%;
+}
+
+.profile_details {
+  text-align: left;
+  flex-grow: 1;
+  flex-basis: 35%;
+}
+
+.education_center {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+.education_course {
+  flex-grow: 1;
+  flex-basis: 0%;
+}
+.career_company {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+.career_role {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+
+.pic_self {
+  border-radius: 100px;
+  /* -webkit-box-shadow: 0px 0px 33px -2px #edff4d;
+  -moz-box-shadow: 0px 0px 33px -2px #edff4d;
+  box-shadow: 0px 0px 33px -2px #edff4d; */
+}
+
+.jumbotron i {
+  color: #FFFFFF;
+  font-size: 50px;
+  padding-right: 2px;
+  padding-top: 20px;
+  animation-name: Wiggle;
+  animation-duration: 1.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  position: absolute;
+}
+
+.profile {
+  background-color: white;
+}
+
+.projects {
+  background-color:#ece6df
+}
+
+.education {
+  background-color:#ece6df;
+}
+
+.abilities {
+  background-color: white;
+}
+
+.contact {
+  background-color: white;
+}
+
+
+.section {
+  padding: 12% 15%;
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+.nav-item {
+  display: flex;
+  float: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.nav-link {
+  color: white !important;
+  width: 100% !important;
+  height: 80px !important;
+  padding-top:30px !important;
+}
+
+.nav-link:hover {
+  color: rgb(136, 132, 132) !important;
+}
+
+.nav-item .active, .nav-link:active {
+  background-color: #22A39A !important;
+  color: white !important;
+}
+
+.navbar-toggler {
+  outline: none!
+}
+.accordion .card {
+  border: none !important;
+}
+
+.flex {
+  display: flex;
+}
+
+hr {
+    margin: 40px 0px;
+    border-color: #727878;
+    opacity: 0.2;
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes Wiggle {
+  0% {
+    padding-top: 20px;
+  }
+  50% {
+    padding-top: 28px;
+  }
+  100% {
+    padding-top: 20px;
+  }
+}
+
+.default-color {
+  color: #22A39A;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9
+
+}
+.icon-50 {
+  font-size: 50px;
+}
+
+.icon-color-default {
+  color: #22A39A
+}
+.align-left {
+  text-align: left;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #22A39A;
+  color: black; 
+
+}
+.accordion-button:focus {
+  background-color: #22A39A;
+  color: black; 
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ability-title {
+  width: 60%;
+}
+
+.ability-skill {
+  min-height: 30px;
+}
+
+#abilities ul > li .ability-title {
+  display: inline-block; 
+  width: 60%;
+}
+#abilities ul > li .ability-score {
+  float: right;
+}
+
+.contact_logo{
+  padding:10px;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+}
+.contact_btn {
+  background-color: transparent;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  body:before {
+    background-image: url('./assets/images/batman-mobile.jpg');
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    filter: blur(0px);
+    z-index: -9;
+    background-size: cover;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    border: 0px;
+    background-color: #222222;
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    width: 110px;
+    display: block;
+    z-index: 99999;
+    margin-top: 4%;
+  }
+  .navbar {
+    background-color: black !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .nav-link {
+    color: white !important;
+    width: 100% !important;
+    height: 80px !important;
+  }
+  .skill {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .contact_logo{
+    padding:2px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  .nav-link {
+    color: white !important;
+    width: 100% !important;
+  }
+}
